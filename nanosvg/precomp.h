@@ -1,12 +1,9 @@
 #pragma once
 
-
-
 #include "fastmath.h"
 #include <memory.h>
 #include <string.h>
-#include <malloc.h>
-
+#include <stdlib.h>
 #include <stdio.h>
 
 inline void* MemAllocNoZero(unsigned int cBytes)
