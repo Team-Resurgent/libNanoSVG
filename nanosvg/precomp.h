@@ -5,6 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 
 inline void* MemAllocNoZero(unsigned int cBytes)
 {
