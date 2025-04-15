@@ -13,15 +13,15 @@ jobs:
           - os: windows-latest
             build_target: win-x64
             build_path: \build\
-            artifact_path: \build\Release\libLZX.dll
+            artifact_path: \build\Release\libNanoSVG.dll
           - os: ubuntu-latest
             build_target: linux-x64
             build_path: /build/
-            artifact_path: /build/libLZX.so
+            artifact_path: /build/libNanoSVG.so
           - os: macos-latest
             build_target: osx
             build_path: /build/
-            artifact_path: /build/libLZX.dylib
+            artifact_path: /build/libNanoSVG.dylib
     name: ${{ matrix.build_target }} Native Build
 
     steps:
