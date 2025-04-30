@@ -1391,10 +1391,10 @@ void nsvgRasterize(NSVGrasterizer* r,
 		}
 	}
 
-	for (i = 0; i < h; i++)
-	{
-		memset(&dst[i*stride], 0x00, w*4);
-	}
+	// for (i = 0; i < h; i++)
+	// {
+	// 	memset(&dst[i*stride], 0x00, w*4);
+	// }
 
 	for (shape = image->shapes; shape != NULL; shape = shape->next) {
 
